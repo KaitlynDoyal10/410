@@ -23,7 +23,7 @@
 
 <header> 
 
-<a href="index.html"><img src="images/logo.jpg" alt="KAITLYN'S FLORAL SHOP LOGO"/></a>
+<a href="index.html"><img src="logo.jpg" alt="KAITLYN'S FLORAL SHOP LOGO"/></a>
 
 </header> 
 
@@ -40,33 +40,61 @@
 	 
 <article id = "main"> 
 
-<h2>Welcome!</h2>
-	<p> At  Kaitlyn's Floral Shop, we specialize in fresh, handpicked flowers for every occasion. Whether you're celebrating love, expressing sympathy, or simply brightning someone's day, our carefully curated floral arrangements bring elegance and joy to any moment!</p>
+<h2>Fill out the form below to order your personalized arrangements!</h2>
+	
+<form>
+<div class="formRow">
+<label for="fname">First Name</label>
+<input name="custFname" id="fname" type="text" />
+</div>
 
- <img src = "images/woodenbox.jpg" alt = "Flower Bouquet Wooden Box" />
+<div class="formRow">
+<label for="lname">Last Name</label>
+<input name="custLname" id="lname" type="text" />
+</div>
+
+<div class="formRow">
+<label for="phone">Phone Number</label>
+<input name="custphone" id="phone" type="text" />
+</div>
+<div>
+  <input type="radio" id="sbouquet" name="small bouquet" value="sbouquet">
+  <label for="sbouquet">Small</label><br>
+  
+  <input type="radio" id="mbouquet" name="medium bouquet" value="mbouquet">
+  <label for="mbouquet">Medium</label><br>
+  
+  <input type="radio" id="lbouquet" name="large bouquet" value="lbouquet">
+  <label for="lbouquet">Large</label>
+
+</div>
+
+
+<label for="commonBox">Tell us more about the specific flowers in your order!</label>
+	<textarea name="custExp" id="commonBox"></textarea>
+	
+<div id="buttons">
+		<input type="submit" value="Submit" />
+		<input type="reset" value="Reset" />
+
+</form>
+
+
 
 </article> <!-- end main -->
 
 <aside> 
 
-<h3>Hours</h3>
-	<p>Monday: 9 a.m. - 5 p.m.</p>
-	<p>Tuesday: 9 a.m. - 5 p.m.</p>
-	<p>Wednesday:  9 a.m. - 5 p.m.</p>
-	<p>Thursday: 9 a.m. - 5 p.m. </p>
-	<p>Friday: 9 a.m. - 6:30 p.m.</p>
-	<p>Saturday: Closed </p>
-	<p>Sunday: Closed</p>
-
-
+<h3>Example Arrangments</h3>
 
 <figure>
-<img src ="images/weddingbouquet.jpg" alt ="Wedding Floral Bouquet" />
+<img src ="smallbouquet.jpg" alt ="Small Bouquet" />
+<img src ="mediumbouquet.jpg" alt ="Medium Bouquet" />
   <figcaption>
    <br />
   </figcaption> 
 </figure>
-<p>"Flowers always make people better, happier, and mjore helpful; they are sunshine, food and medicine to the mind"!</p>
+<p>"I must have flowers always, always, and always"!</p>
 </aside>   
 
 <footer> 
