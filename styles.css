@@ -2,8 +2,8 @@
 /*
    sample start file for final project - educational use only
    
-   Author:   
-   Date:     
+   Author:   Kaitlyn Doyal
+   Date:   3/31/2025  
    
   
 
@@ -24,7 +24,7 @@ body {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #92664A;
 }
 
 
@@ -143,4 +143,23 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+table {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+td, th, tbody {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+}
+tr:nth-child(even) {
+	background-color:black;
+	color: white;
+}
+tr:nth-child(odd) {
+	background-color:white;
+	color: black;
 }
